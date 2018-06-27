@@ -1,0 +1,136 @@
+#home-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/class.jpg');
+    background-size: cover;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f89406;
+
+}
+
+#more-info-btn{
+    padding-top: 20px;
+    display: none;
+}
+
+.KU-blue{
+    color: #2D65AF;
+}
+
+.KU-red{
+    color: #e8000d;
+}
+
+#title-text{
+    margin: auto;
+}
+
+#title-sub{
+    color: white;
+    text-align: left;
+}
+
+#info-page{
+    height: 100vh;
+    margin: 0;
+}
+
+.col-content{
+    min-height: 100%;
+    background-size: cover;
+    background-color: rgb(64, 64, 64);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-container{
+    height: 100%;
+}
+
+#about-us{
+    background-image: url('assets/campanile-dark.png');
+    background-position: center;
+}
+
+#contact{
+    background-image: url('assets/code.png');
+    background-position: left;
+}
+
+#partners{
+    background-image: url('assets/sunflowers-dark.png');
+    background-position: left;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+#form-thanks{
+    display: none;
+}
+
+#google-form a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+#google-form a:visited {
+    color: grey;
+}
+
+#google-form a:hover{
+    color: grey;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    #mobile-nav{
+        display: none;
+    }
+
+    #more-info-btn{
+        display:block;
+    }
+
+    .col-content{
+        height: 100%;
+        background-size: cover;
+        background-color: rgb(32, 32, 32);
+        background-blend-mode: soft-light;
+        background-repeat: no-repeat;
+        color: rgb(128, 128, 128);
+    }
+
+    .col-content:hover{
+        color: white;
+        background-color: rgb(64, 64, 64);
+        background-blend-mode: soft-light;
+    }
+
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    .col-content{
+        color: white;
+        background-blend-mode: normal;
+    }
+}
+
+@media only screen and (max-device-width: 400px){
+    #title-title{
+        font-size: 64px;
+    }
+}
