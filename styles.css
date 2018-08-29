@@ -80,16 +80,16 @@
     display: none;
 }
 
-#google-form a:link{
+.google-form a:link{
     text-decoration: none;
     color: inherit;
 }
 
-#google-form a:visited {
+.google-form a:visited {
     color: grey;
 }
 
-#google-form a:hover{
+.google-form a:hover{
     color: grey;
 
 }
